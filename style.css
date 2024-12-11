@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    margin:0;
+    padding-right:48px;
+    padding-left: 48px;
+    color: white;
+    box-sizing: border-box;
+}
+.container {
+    padding-top: 24px;
+    gap:8px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #928DD30F;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+    margin-right: 32px;
+}
+.navleft {
+    display: flex;
+    font-size: 17px;
+    margin-left:32px;
+    justify-content: space-between;
+    gap: 32px;
+}
+.navcenter {
+    font-family: "MuseoModerno";
+    font-size: 42px;
+}
+.navright {
+    font-size: 17px;
+    margin-right: 42px;
+}
+.heading {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+}
+.container2 {
+    padding-top: 72px;
+    padding-top: 72px;
+    
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.project1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        text-align: left;
+        gap: 48px;
+}
+.singleproject {
+    flex: 1;
+    padding: 10px;
+}
+.project2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 48px;
+    text-align: left;
+    gap: 48px;
+}
+.project3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 48px;
+    text-align: left;
+    gap: 48px;
+}
+.container4 {
+    display: flex;
+
+    align-items: center;
+}
+.container5 {
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    font-size: 48px;
+    font-weight: 400;
+}
+    
