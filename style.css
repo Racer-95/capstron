@@ -92,4 +92,28 @@ body {
     font-size: 48px;
     font-weight: 400;
 }
+.container7 {
+    padding-top: 200px;
+    gap:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.text2 {
+    text-align: center;
+}
+input {
+    width:56px;
+    height:64px;
+    background-color: transparent;
+    border: 1px white;
+    border-radius: 8px;
+    margin:4px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
     
