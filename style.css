@@ -9,16 +9,21 @@ body {
 .container {
     padding-top: 24px;
     gap:8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #928DD30F;
-    margin-top: 24px;
+    margin-top: 10px;
     margin-left: 32px;
     margin-bottom: 24px;
     margin-right: 32px;
+    border-radius: 16px;
 }
 .navleft {
     display: flex;
@@ -26,6 +31,9 @@ body {
     margin-left:32px;
     justify-content: space-between;
     gap: 32px;
+    font-family: "Archivo";
+    font-size: 17px;
+    font-weight: 500;
 }
 .navcenter {
     font-family: "MuseoModerno";
@@ -34,20 +42,28 @@ body {
 .navright {
     font-size: 17px;
     margin-right: 42px;
+    font-family: "Archivo";
+    font-size: 17px;
+    font-weight: 500;
 }
 .heading {
-    font-size: 70px;
+    font-size: 120px;
     text-align: center;
     font-weight: 900;
+    font-family: "Chivo";
 }
 .container2 {
     padding-top: 72px;
     padding-top: 72px;
-    
+    gap:48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .img {
     display: flex;
     justify-content: center;
+    border-radius: 22px;
 }
 .project1 {
         display: flex;
@@ -85,12 +101,53 @@ body {
 
     align-items: center;
 }
+.text h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 68px;
+    margin: 0;
+    font-family: "Chivo";
+}
+.text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0;
+    font-family: "Archivo";
+}
+.text button {
+    background-color: #928DD3;
+    border-radius: 8px;
+    height:48px;
+    width: 257px;
+    padding-top:12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    margin-top:60px;
+    font-size: 18px;
+    font-family: "Archivo";
+    font-weight: 600;
+}
 .container5 {
     text-align: center;
     padding-top: 72px;
     padding-bottom: 72px;
     font-size: 48px;
     font-weight: 400;
+    font-family: "Chivo";
+}
+.container6 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    font-family: "Chivo";
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
 }
 .container7 {
     padding-top: 200px;
@@ -102,6 +159,41 @@ body {
 }
 .text2 {
     text-align: center;
+}
+.text2 h3 {
+    font-size: 28px;
+    font-weight: 900;
+    font-family: "Chivo";
+    line-height: 32px;
+    margin: 0;
+}
+.text2 p {
+    font-size: 15px;
+    font-weight: 900;
+    font-family:"Archivo";
+    line-height: 20px;
+    margin-top: 8px;
+}
+.submit {
+    background-color: #928DD3;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    height: 36px;
+    width: 400px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.skip {
+    color: #928DD3;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Archivo";
+    line-height: 20px;
 }
 input {
     width:56px;
@@ -115,5 +207,31 @@ input {
 footer {
     display: flex;
     justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.foot p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: "Chivo";
+    color: #ffffffb0;
+}
+.back {
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    height: 30px;
+    width: 126px;
+    border: 1px solid #FFFFFF29;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-family: "Archivo";
+    line-height: 24px;
+    font-size: 20px;
 }
     
